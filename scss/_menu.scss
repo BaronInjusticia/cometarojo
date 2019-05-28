@@ -90,8 +90,8 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
-      border-radius: 50%;
+      background: url(/img/miniprofile.jpg);
+      border-radius: 1000%;
       border: solid 3px $secondary-color;
     }
   }

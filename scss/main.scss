@@ -87,6 +87,8 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    resize: 10%;
+    height: auto;
   }
 
   .bio {
@@ -111,6 +113,9 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+.bio-image-qualification{
+  resize: 100px; 
+}
 }
 
 // Work/Projects
