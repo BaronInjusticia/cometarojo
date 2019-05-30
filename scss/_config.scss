@@ -1,7 +1,7 @@
 $primary-color: #444;
 $secondary-color: #db2929;
 $show-home-image: true;
-$home-image: url(/img/background.jpg);
+$home-image: url(/dist/img/background.jpg);
 $background-opacity: 0.5;
 
 @mixin easeOut {
@@ -33,7 +33,9 @@ $background-opacity: 0.5;
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
     @return #000;
-  } @else {
+  }
+
+  @else {
     @return #fff;
   }
 }
